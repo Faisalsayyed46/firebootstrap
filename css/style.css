@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display:flex;
+}
+.Logo{
+    display: flex;
+    align-items: center;  
+}
+.Logo img{
+    width:88px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.slider{
+    display: flex;
+   justify-content: center;
+   margin:37px auto;
+   overflow: hidden;
+}
+footer{
+    height: 12vh;
+    background-color: blue;
+}
